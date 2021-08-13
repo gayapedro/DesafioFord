@@ -76,7 +76,7 @@ const decrypt = (mensagem) => {
     }
   }
   blocosDecriptografados.push(bloco);
-  let novoArray = [];
+  const novoArray = [];
   for (const blocoDec of blocosDecriptografados) {
     if (blocoDec.length === 3) novoArray[0] = blocoDec;
     if (blocoDec.length === 6) novoArray[1] = blocoDec;
